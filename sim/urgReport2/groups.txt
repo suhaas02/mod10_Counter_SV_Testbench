@@ -1,0 +1,12 @@
+Testbench Group List
+
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+ 86.25  86.25     1      
+
+
+Total groups in report: 1
+-------------------------------------------------------------------------------
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                          
+ 86.25  86.25    1      100    1        1            64           64                    mod_pkg::mod_sb::mem_coverage 
+

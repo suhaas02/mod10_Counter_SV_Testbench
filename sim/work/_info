@@ -1,0 +1,137 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2022.1 2022.01, Jan 29 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/sim
+T_opt
+!s11d mod_pkg /home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/sim/work 1 mod_if 1 /home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/sim/work 
+!s110 1719056896
+V6koVD@?7]W4eF=HV2?LP72
+04 3 4 work top fast 0
+=1-000ae431a4f1-6676ba00-9d611-280258
+R0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OE;O;2022.1;75
+vmod10_counter
+Z3 !s110 1719056895
+!i10b 1
+!s100 YiC3hEgd2k^:@8hhR0dAH1
+IS[V9e=iLi3X[gaCgka`5<2
+R1
+w1719048235
+8../rtl/mod10_counter.v
+F../rtl/mod10_counter.v
+!i122 0
+L0 1 32
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OE;L;2022.1;75
+r1
+!s85 0
+31
+Z6 !s108 1719056895.000000
+Z7 !s107 ../test/test.sv|../env/mod_env.sv|../env_lib/mod_sb.sv|../env_lib/mod_model.sv|../env_lib/mod_rd_mon.sv|../env_lib/mod_wr_mon.sv|../env_lib/mod_wr_drv.sv|../env_lib/mod_gen.sv|../env_lib/mod_trans.sv|../env_lib/mod_if.sv|../test/top.sv|../test/mod_pkg.sv|../rtl/mod10_counter.v|
+Z8 !s90 -work|work|../rtl/mod10_counter.v|+incdir+../env|+incdir+../env_lib|+incdir+../test|../test/mod_pkg.sv|../test/top.sv|../env_lib/mod_if.sv|-coveropt|3|+cover=bcft|
+!i113 0
+Z9 !s102 -coveropt 3 +cover=bcft
+Z10 o-work work -coveropt 3 +cover=bcft -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -work work +incdir+../env +incdir+../env_lib +incdir+../test -coveropt 3 +cover=bcft -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Ymod_if
+Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R3
+!i10b 1
+!s100 YLAWSnZ431R5j3njQ]N0^2
+IChPTX1e:K[h]<4izOZI7k2
+S1
+R1
+w1719053966
+8../env_lib/mod_if.sv
+F../env_lib/mod_if.sv
+!i122 0
+Z13 L0 1 0
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+R2
+Xmod_pkg
+!s115 mod_if
+R12
+R3
+!i10b 1
+!s100 Bb`5@S4UZNIgX4^BX^BZA0
+I;j=JFJFY>cilVhh`cbS];3
+S1
+R1
+w1719056829
+8../test/mod_pkg.sv
+F../test/mod_pkg.sv
+F../env_lib/mod_trans.sv
+F../env_lib/mod_gen.sv
+F../env_lib/mod_wr_drv.sv
+F../env_lib/mod_wr_mon.sv
+F../env_lib/mod_rd_mon.sv
+F../env_lib/mod_model.sv
+F../env_lib/mod_sb.sv
+F../env/mod_env.sv
+F../test/test.sv
+!i122 0
+R13
+V;j=JFJFY>cilVhh`cbS];3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+R2
+vtop
+R12
+DXx4 work 7 mod_pkg 0 22 ;j=JFJFY>cilVhh`cbS];3
+R3
+!i10b 1
+!s100 E3FnXD7M_YXX9R:d1LMg@1
+IHR7I@4cL>QR15oQ<W5dMH0
+S1
+R1
+w1719055889
+8../test/top.sv
+F../test/top.sv
+!i122 0
+L0 2 49
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+R2

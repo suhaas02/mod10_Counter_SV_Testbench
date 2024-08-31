@@ -1,0 +1,12 @@
+Tests
+
+Total Coverage Summary 
+SCORE  GROUP  
+ 86.25  86.25 
+
+
+Total tests in report: 1
+-------------------------------------------------------------------------------
+Data from the following tests was used to generate this report
+cov2/test 
+

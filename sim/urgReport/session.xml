@@ -1,0 +1,26 @@
+<session version="1.1" release="T-2022.06-SP1" timestp="2024-06-27 10:15:06 GMT">
+  <info>
+    <attr name="datetime" value="Thu Jun 27 15:45:08 2024
+"/>
+    <attr name="command" value="urg -dir cov1.vdb cov2.vdb -dbname merged_dir/merged_test -format both -report urgReport"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="100%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="mod_pkg::mod_sb::mem_coverage">
+      <metric name="Group" value="100%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>

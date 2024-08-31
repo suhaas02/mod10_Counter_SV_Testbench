@@ -1,0 +1,2 @@
+var g_data = {"8":{"pr":"/mod_pkg","ty":2,"dui":2,"dun":"work.mod_pkg","cvgs":[{"h":["\\/mod_pkg::mod_sb::mem_coverage ",2,1,16,9],"cov":[65,63,99.16],"opts":{"goal":"100","per_instance":"true"}},{"h":["/mod_pkg/mod_sb/mem_coverage",1,1,9],"cov":[65,63,99.16],"opts":{"goal":"100","merge_instance":"auto(true)"}}]}};
+processCovergroupsData(g_data);

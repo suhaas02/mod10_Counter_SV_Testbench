@@ -1,0 +1,149 @@
+27       
+0 mod_trans.sv
+0 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/systemverilog/mod_trans.sv
+0 ../env/mod_trans.sv
+0 mod_gen.sv
+0 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/systemverilog/mod_gen.sv
+0 ../env/mod_gen.sv
+0 mod_wr_drv.sv
+0 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/systemverilog/mod_wr_drv.sv
+0 ../env/mod_wr_drv.sv
+0 mod_wr_mon.sv
+0 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/systemverilog/mod_wr_mon.sv
+0 ../env/mod_wr_mon.sv
+0 mod_rd_mon.sv
+0 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/systemverilog/mod_rd_mon.sv
+0 ../env/mod_rd_mon.sv
+0 mod_model.sv
+0 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/systemverilog/mod_model.sv
+0 ../env/mod_model.sv
+0 mod_sb.sv
+0 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/systemverilog/mod_sb.sv
+0 ../env/mod_sb.sv
+0 mod_env.sv
+0 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/systemverilog/mod_env.sv
+0 test.sv
+0 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/etc/systemverilog/test.sv
+0 ../env/test.sv
+0 ../env_lib/test.sv
+43
++incdir+../env
++incdir+../env_lib
++incdir+../test
++itf+/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib/vcsdp_lite.tab
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib/libvirsim.so /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib/liberrorinf.so /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib/libsnpsmalloc.so /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib/libvfs.so /home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/pli.a
+-Mout=simv
+-Msaverestoreobj=/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/pli.a -ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/include
+-Mxllcflags=
+-P
+-P
+-Xufe=2steps
+-debug_access+all
+-fsdb
+-full64
+-gen_obj
+-kdb
+-l
+-lca
+-picarchive
+-sverilog
+/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/bin/vcs1
+comp.log
+/home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/novas.tab
+/home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/verdi.tab
+../rtl/mod10_counter.v
+../env_lib/mod_if.sv
+../test/mod_pkg.sv
+../test/top.sv
+49
+which_declare=declare -f
+XDG_SESSION_ID=114216
+XDG_RUNTIME_DIR=/run/user/4723
+XDG_DATA_DIRS=/home1/BPRN08/VegiJ/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1
+VC_STATIC_HOME=/home/cad/eda/SYNOPSYS/VC_SPYGLASS_2022.06/vc_static/T-2022.06
+VC_SG_ELITE=1
+VCS_TARGET_ARCH=linux64
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=comp.log
+VCS_LCAMSG_PRINT_OFF=1
+VCS_HOME=/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64
+S_COLORS=auto
+SSH_TTY=/dev/pts/71
+SSH_CONNECTION=172.16.19.62 46574 172.16.17.6 22
+SSH_CLIENT=172.16.19.62 46574 22
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SNPS_VCS_CLANG_PATH=/home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/clang
+SNPS_LINT_INTERNAL_SETUP_WIZARD=1
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+OVA_UUM=0
+OS_LDFLAGS=
+MGLS_LICENSE_FILE=1717@172.16.17.6:1717@172.16.17.5
+MFLAGS=
+MAKE_TERMOUT=/dev/pts/71
+MAKE_TERMERR=/dev/pts/71
+MAKELEVEL=1
+MAKEFLAGS=
+LICENSE_QUEUE=30
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+HISTCONTROL=ignoredups
+GDK_BACKEND=x11
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-rWWMpzyfVK,guid=e2a3f59ba352b748792806b2667d37c9
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+0
+0
+16
+1719057738 ../test/test.sv
+1719056829 ../env/mod_env.sv
+1719055965 ../env_lib/mod_sb.sv
+1719054519 ../env_lib/mod_model.sv
+1719054699 ../env_lib/mod_rd_mon.sv
+1719054224 ../env_lib/mod_wr_mon.sv
+1719054142 ../env_lib/mod_wr_drv.sv
+1719053966 ../env_lib/mod_gen.sv
+1719051960 ../env_lib/mod_trans.sv
+1719404085 ../test/top.sv
+1719047399 ../test/mod_pkg.sv
+1719053966 ../env_lib/mod_if.sv
+1719048235 ../rtl/mod10_counter.v
+1661679681 /home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/verdi.tab
+1661679681 /home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/novas.tab
+1661742339 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib/vcsdp_lite.tab
+5
+1661743730 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib/libvirsim.so
+1661743139 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib/liberrorinf.so
+1661743067 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib/libsnpsmalloc.so
+1661743136 /home/cad/eda/SYNOPSYS/VCS/vcs/T-2022.06-SP1/linux64/lib/libvfs.so
+1661678774 /home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/pli.a
+1719483303 simv.daidir
+-1 partitionlib

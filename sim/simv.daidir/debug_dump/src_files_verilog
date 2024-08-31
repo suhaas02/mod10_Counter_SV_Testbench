@@ -1,0 +1,13 @@
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/env/mod_env.sv
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/env_lib/mod_gen.sv
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/env_lib/mod_if.sv
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/env_lib/mod_model.sv
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/env_lib/mod_rd_mon.sv
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/env_lib/mod_sb.sv
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/env_lib/mod_trans.sv
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/env_lib/mod_wr_drv.sv
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/env_lib/mod_wr_mon.sv
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/rtl/mod10_counter.v
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/test/mod_pkg.sv
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/test/test.sv
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/test/top.sv

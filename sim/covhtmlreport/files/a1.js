@@ -1,0 +1,2 @@
+var g_data = {"8":{"pr":"/mod_pkg","ty":2,"dui":2,"dun":"work.mod_pkg","asserts":[{"n":["mod_gen/start/#anonblk#73033575#14#4#/#ublk#73033575#15/immed__18"],"h":[0,2]}],"ad":0}}
+processAssertionsData(g_data);

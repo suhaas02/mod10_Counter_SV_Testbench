@@ -1,0 +1,21 @@
+Dashboard
+
+Date: Thu Jun 27 15:45:07 2024
+
+User: VegiJ
+
+Version: T-2022.06-SP1
+Command line: urg -dir cov2.vdb -format both -report urgReport2
+Number of tests: 1
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  GROUP  
+ 86.25  86.25 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+ 86.25  86.25     1      
+

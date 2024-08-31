@@ -1,0 +1,695 @@
+Group : mod_pkg::mod_sb::mem_coverage
+
+===============================================================================
+Group : mod_pkg::mod_sb::mem_coverage
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00  92.08    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home1/BPRN08/VegiJ/VLSI_RN/SV_LABS/mini_project/modulo_10_load_up_down_counter/sim/../env_lib/mod_sb.sv
+
+2 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                                    
+ 86.25 1      100    1        64           64            top.ext_test_h1.env_h.sb_h.mem_coverage 
+ 97.92 1      100    1        64           64            top.base_test_h.env_h.sb_h.mem_coverage 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   mod_pkg::mod_sb::mem_coverage
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 25       0         25      100.00  
+Crosses   40       0         40      100.00  
+
+
+Variables for Group  mod_pkg::mod_sb::mem_coverage
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+DATA_IN  10       0         10      100.00  100  1      1        16                   
+LOAD     2        0         2       100.00  100  1      1        2                    
+MODE     2        0         2       100.00  100  1      1        2                    
+RESET    1        0         1       100.00  100  1      1        0                    
+DATA_OUT 10       0         10      100.00  100  1      1        0                    
+
+
+Crosses for Group  mod_pkg::mod_sb::mem_coverage
+
+
+CROSS              EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+DATA_OUTxMODExLOAD 40       0         40      100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DATA_IN
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 10       0         10      100.00  
+
+
+Automatically Generated Bins for DATA_IN
+
+
+Excluded/Illegal bins
+
+NAME                  COUNT STATUS           
+ILLB                  0     Illegal          
+[auto[10] - auto[15]] --    Illegal (6 bins) 
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[0] 162   1        
+auto[1] 57    1        
+auto[2] 192   1        
+auto[3] 174   1        
+auto[4] 160   1        
+auto[5] 57    1        
+auto[6] 39    1        
+auto[7] 54    1        
+auto[8] 69    1        
+auto[9] 36    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable LOAD
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for LOAD
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 922   1        
+auto[1] 78    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable MODE
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for MODE
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 542   1        
+auto[1] 458   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RESET
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for RESET
+
+
+Bins
+
+NAME      COUNT AT LEAST 
+ONE_reset 30    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DATA_OUT
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 10       0         10      100.00  
+
+
+User Defined Bins for DATA_OUT
+
+
+Excluded/Illegal bins
+
+NAME  COUNT STATUS  
+ILLB2 0     Illegal 
+
+
+Covered bins
+
+NAME   COUNT AT LEAST 
+data_0 114   1        
+data_1 87    1        
+data_2 95    1        
+data_3 104   1        
+data_4 108   1        
+data_5 111   1        
+data_6 105   1        
+data_7 95    1        
+data_8 96    1        
+data_9 85    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross DATA_OUTxMODExLOAD
+
+
+Samples crossed: DATA_OUT MODE LOAD
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 40       0         40      100.00          
+
+
+Automatically Generated Cross Bins for DATA_OUTxMODExLOAD
+
+
+Bins
+
+DATA_OUT MODE    LOAD    COUNT AT LEAST 
+data_0   auto[0] auto[0] 55    1        
+data_0   auto[0] auto[1] 3     1        
+data_0   auto[1] auto[0] 46    1        
+data_0   auto[1] auto[1] 10    1        
+data_1   auto[0] auto[0] 35    1        
+data_1   auto[0] auto[1] 7     1        
+data_1   auto[1] auto[0] 44    1        
+data_1   auto[1] auto[1] 1     1        
+data_2   auto[0] auto[0] 43    1        
+data_2   auto[0] auto[1] 5     1        
+data_2   auto[1] auto[0] 45    1        
+data_2   auto[1] auto[1] 2     1        
+data_3   auto[0] auto[0] 45    1        
+data_3   auto[0] auto[1] 7     1        
+data_3   auto[1] auto[0] 47    1        
+data_3   auto[1] auto[1] 5     1        
+data_4   auto[0] auto[0] 53    1        
+data_4   auto[0] auto[1] 7     1        
+data_4   auto[1] auto[0] 46    1        
+data_4   auto[1] auto[1] 2     1        
+data_5   auto[0] auto[0] 55    1        
+data_5   auto[0] auto[1] 5     1        
+data_5   auto[1] auto[0] 50    1        
+data_5   auto[1] auto[1] 1     1        
+data_6   auto[0] auto[0] 60    1        
+data_6   auto[0] auto[1] 3     1        
+data_6   auto[1] auto[0] 40    1        
+data_6   auto[1] auto[1] 2     1        
+data_7   auto[0] auto[0] 52    1        
+data_7   auto[0] auto[1] 1     1        
+data_7   auto[1] auto[0] 39    1        
+data_7   auto[1] auto[1] 3     1        
+data_8   auto[0] auto[0] 53    1        
+data_8   auto[0] auto[1] 4     1        
+data_8   auto[1] auto[0] 33    1        
+data_8   auto[1] auto[1] 6     1        
+data_9   auto[0] auto[0] 46    1        
+data_9   auto[0] auto[1] 3     1        
+data_9   auto[1] auto[0] 35    1        
+data_9   auto[1] auto[1] 1     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top.ext_test_h1.env_h.sb_h.mem_coverage
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 86.25 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                          
+100.00  92.08    1      100    1        1            64           64                    mod_pkg::mod_sb::mem_coverage 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top.ext_test_h1.env_h.sb_h.mem_coverage
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 25       6         19      88.00   
+Crosses   40       9         31      77.50   
+
+
+Variables for Group Instance  top.ext_test_h1.env_h.sb_h.mem_coverage
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+DATA_IN  10       6         4       40.00   100  1      1        16                   
+LOAD     2        0         2       100.00  100  1      1        2                    
+MODE     2        0         2       100.00  100  1      1        2                    
+RESET    1        0         1       100.00  100  1      1        0                    
+DATA_OUT 10       0         10      100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  top.ext_test_h1.env_h.sb_h.mem_coverage
+
+
+CROSS              EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+DATA_OUTxMODExLOAD 40       9         31      77.50   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DATA_IN
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 10       6         4       40.00   
+
+
+Automatically Generated Bins for DATA_IN
+
+
+Uncovered bins
+
+NAME                COUNT AT LEAST NUMBER 
+[auto[1]]           0     1        1      
+[auto[5] - auto[9]] --    --       5      
+
+
+Excluded/Illegal bins
+
+NAME                  COUNT STATUS           
+ILLB                  0     Illegal          
+[auto[10] - auto[15]] --    Illegal (6 bins) 
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[0] 121   1        
+auto[2] 153   1        
+auto[3] 105   1        
+auto[4] 121   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable LOAD
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for LOAD
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 461   1        
+auto[1] 39    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable MODE
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for MODE
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 262   1        
+auto[1] 238   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RESET
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for RESET
+
+
+Bins
+
+NAME      COUNT AT LEAST 
+ONE_reset 15    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DATA_OUT
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 10       0         10      100.00  
+
+
+User Defined Bins for DATA_OUT
+
+
+Excluded/Illegal bins
+
+NAME  COUNT STATUS  
+ILLB2 0     Illegal 
+
+
+Covered bins
+
+NAME   COUNT AT LEAST 
+data_0 60    1        
+data_1 40    1        
+data_2 49    1        
+data_3 56    1        
+data_4 62    1        
+data_5 55    1        
+data_6 50    1        
+data_7 44    1        
+data_8 44    1        
+data_9 40    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross DATA_OUTxMODExLOAD
+
+
+Samples crossed: DATA_OUT MODE LOAD
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 40       9         31      77.50   9       
+
+
+Automatically Generated Cross Bins for DATA_OUTxMODExLOAD
+
+
+Element holes
+
+DATA_OUT                   MODE LOAD      COUNT AT LEAST NUMBER 
+[data_5]                   *    [auto[1]] --    --       2      
+[data_7 , data_8 , data_9] *    [auto[1]] --    --       6      
+
+
+Uncovered bins
+
+DATA_OUT MODE      LOAD      COUNT AT LEAST NUMBER 
+[data_1] [auto[1]] [auto[1]] 0     1        1      
+
+
+Covered bins
+
+DATA_OUT MODE    LOAD    COUNT AT LEAST 
+data_0   auto[0] auto[0] 24    1        
+data_0   auto[0] auto[1] 3     1        
+data_0   auto[1] auto[0] 25    1        
+data_0   auto[1] auto[1] 8     1        
+data_1   auto[0] auto[0] 16    1        
+data_1   auto[0] auto[1] 1     1        
+data_1   auto[1] auto[0] 23    1        
+data_2   auto[0] auto[0] 22    1        
+data_2   auto[0] auto[1] 3     1        
+data_2   auto[1] auto[0] 22    1        
+data_2   auto[1] auto[1] 2     1        
+data_3   auto[0] auto[0] 20    1        
+data_3   auto[0] auto[1] 6     1        
+data_3   auto[1] auto[0] 25    1        
+data_3   auto[1] auto[1] 5     1        
+data_4   auto[0] auto[0] 27    1        
+data_4   auto[0] auto[1] 7     1        
+data_4   auto[1] auto[0] 26    1        
+data_4   auto[1] auto[1] 2     1        
+data_5   auto[0] auto[0] 29    1        
+data_5   auto[1] auto[0] 26    1        
+data_6   auto[0] auto[0] 29    1        
+data_6   auto[0] auto[1] 1     1        
+data_6   auto[1] auto[0] 19    1        
+data_6   auto[1] auto[1] 1     1        
+data_7   auto[0] auto[0] 24    1        
+data_7   auto[1] auto[0] 20    1        
+data_8   auto[0] auto[0] 26    1        
+data_8   auto[1] auto[0] 18    1        
+data_9   auto[0] auto[0] 24    1        
+data_9   auto[1] auto[0] 16    1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top.base_test_h.env_h.sb_h.mem_coverage
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+ 97.92 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                          
+100.00  92.08    1      100    1        1            64           64                    mod_pkg::mod_sb::mem_coverage 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top.base_test_h.env_h.sb_h.mem_coverage
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 25       0         25      100.00  
+Crosses   40       5         35      87.50   
+
+
+Variables for Group Instance  top.base_test_h.env_h.sb_h.mem_coverage
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+DATA_IN  10       0         10      100.00  100  1      1        16                   
+LOAD     2        0         2       100.00  100  1      1        2                    
+MODE     2        0         2       100.00  100  1      1        2                    
+RESET    1        0         1       100.00  100  1      1        0                    
+DATA_OUT 10       0         10      100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  top.base_test_h.env_h.sb_h.mem_coverage
+
+
+CROSS              EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+DATA_OUTxMODExLOAD 40       5         35      87.50   100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DATA_IN
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 10       0         10      100.00  
+
+
+Automatically Generated Bins for DATA_IN
+
+
+Excluded/Illegal bins
+
+NAME                  COUNT STATUS           
+ILLB                  0     Illegal          
+[auto[10] - auto[15]] --    Illegal (6 bins) 
+
+
+Covered bins
+
+NAME    COUNT AT LEAST 
+auto[0] 41    1        
+auto[1] 57    1        
+auto[2] 39    1        
+auto[3] 69    1        
+auto[4] 39    1        
+auto[5] 57    1        
+auto[6] 39    1        
+auto[7] 54    1        
+auto[8] 69    1        
+auto[9] 36    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable LOAD
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for LOAD
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 461   1        
+auto[1] 39    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable MODE
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for MODE
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 280   1        
+auto[1] 220   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable RESET
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for RESET
+
+
+Bins
+
+NAME      COUNT AT LEAST 
+ONE_reset 15    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DATA_OUT
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 10       0         10      100.00  
+
+
+User Defined Bins for DATA_OUT
+
+
+Excluded/Illegal bins
+
+NAME  COUNT STATUS  
+ILLB2 0     Illegal 
+
+
+Covered bins
+
+NAME   COUNT AT LEAST 
+data_0 54    1        
+data_1 47    1        
+data_2 46    1        
+data_3 48    1        
+data_4 46    1        
+data_5 56    1        
+data_6 55    1        
+data_7 51    1        
+data_8 52    1        
+data_9 45    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross DATA_OUTxMODExLOAD
+
+
+Samples crossed: DATA_OUT MODE LOAD
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 40       5         35      87.50   5       
+
+
+Automatically Generated Cross Bins for DATA_OUTxMODExLOAD
+
+
+Element holes
+
+DATA_OUT MODE LOAD      COUNT AT LEAST NUMBER 
+[data_4] *    [auto[1]] --    --       2      
+
+
+Uncovered bins
+
+DATA_OUT          MODE      LOAD      COUNT AT LEAST NUMBER 
+[data_0]          [auto[0]] [auto[1]] 0     1        1      
+[data_2 , data_3] [auto[1]] [auto[1]] --    --       2      
+
+
+Covered bins
+
+DATA_OUT MODE    LOAD    COUNT AT LEAST 
+data_0   auto[0] auto[0] 31    1        
+data_0   auto[1] auto[0] 21    1        
+data_0   auto[1] auto[1] 2     1        
+data_1   auto[0] auto[0] 19    1        
+data_1   auto[0] auto[1] 6     1        
+data_1   auto[1] auto[0] 21    1        
+data_1   auto[1] auto[1] 1     1        
+data_2   auto[0] auto[0] 21    1        
+data_2   auto[0] auto[1] 2     1        
+data_2   auto[1] auto[0] 23    1        
+data_3   auto[0] auto[0] 25    1        
+data_3   auto[0] auto[1] 1     1        
+data_3   auto[1] auto[0] 22    1        
+data_4   auto[0] auto[0] 26    1        
+data_4   auto[1] auto[0] 20    1        
+data_5   auto[0] auto[0] 26    1        
+data_5   auto[0] auto[1] 5     1        
+data_5   auto[1] auto[0] 24    1        
+data_5   auto[1] auto[1] 1     1        
+data_6   auto[0] auto[0] 31    1        
+data_6   auto[0] auto[1] 2     1        
+data_6   auto[1] auto[0] 21    1        
+data_6   auto[1] auto[1] 1     1        
+data_7   auto[0] auto[0] 28    1        
+data_7   auto[0] auto[1] 1     1        
+data_7   auto[1] auto[0] 19    1        
+data_7   auto[1] auto[1] 3     1        
+data_8   auto[0] auto[0] 27    1        
+data_8   auto[0] auto[1] 4     1        
+data_8   auto[1] auto[0] 15    1        
+data_8   auto[1] auto[1] 6     1        
+data_9   auto[0] auto[0] 22    1        
+data_9   auto[0] auto[1] 3     1        
+data_9   auto[1] auto[0] 19    1        
+data_9   auto[1] auto[1] 1     1        
+
+

@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1719483301.942589326, "rt":0.62, "ut":0.40, "st":0.18}}
+{"vcselab":{"timestamp_begin":1719483302.674691601, "rt":0.50, "ut":0.38, "st":0.10}}
+{"link":{"timestamp_begin":1719483303.254262316, "rt":0.28, "ut":0.20, "st":0.08}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1719483300.650898096}
+{"VCS_COMP_START_TIME": 1719483300.650898096}
+{"VCS_COMP_END_TIME": 1719483303.760420130}
+{"VCS_USER_OPTIONS": "-full64 -l comp.log -sverilog -debug_access+all -kdb -lca -P /home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/novas.tab /home/cad/eda/SYNOPSYS/VERDI_2022/verdi/T-2022.06-SP1/share/PLI/VCS/LINUX64/pli.a ../rtl/mod10_counter.v +incdir+../env +incdir+../env_lib +incdir+../test ../env_lib/mod_if.sv ../test/mod_pkg.sv ../test/top.sv"}
+{"vcs1": {"peak_mem": 1104495}}
+{"stitch_vcselab": {"peak_mem": 1104595}}
